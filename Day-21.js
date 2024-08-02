@@ -14,7 +14,6 @@ function twosum(arr, target) {
     }
     return `No two numbers add upto ${target}`;
   }
-  
    console.log(twosum([2, 7, 11, 15], 9));
 
 
