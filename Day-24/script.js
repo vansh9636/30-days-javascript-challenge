@@ -11,8 +11,6 @@ function getLocation() {
                 try {
                     let data = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=${apikey}`);
                     let newdata = await data.json();
-                    console.log(newdata.weather[0].main);
-                    console.log(newdata);
 
                     document.getElementById('temp').innerHTML = `<h1>${((newdata.main.temp) - 273.15).toFixed()}<sup> ℃</sup></h1>
                     <h3>${newdata.weather[0].main}</h3>`;
