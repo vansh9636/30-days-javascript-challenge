@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <main>
+        <div id="maincard">
+            <div id="Moviename">
+                <input type="text" id="findmovie" placeholder="Search full name ">
+                <button id="searchbtn">Search</button>
+            </div>
+            <div id="blockcard">
+                <div id="modetails">
+                    <img id="poster" alt="">
+                    <div id="MovieInfo">
+                        <h1 id="title"></h1>
+                        <div id="rateOuter"><img src="https://cdn-icons-png.flaticon.com/128/1828/1828884.png"
+                                alt="Rating">&nbsp;&nbsp;<span id="Rating"></span></div>
+                        <div id="publish">
+                            <span id="rated"></span><span id="year"></span><span id="runtime"></span>
+                        </div>
+                        <div id="Movetype">
+                            <span id="genre"></span><span id="genre2"></span><span id="language"></span>
+                        </div>
+                    </div>
+                </div>
+                <div id="infopera">
+                    <span>
+                        <h3>Plot :</h3>
+                        <p id="plot"></p>
+                    </span>
+                    <span>
+                        <h3>Cast :</h3>
+                        <p id="cast"></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ********** check full code of  project on "js-project" repository  ********  -->
+    <script src="script.js"></script>
+</body>
+
+</html>
