@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Form</title>
+
+</head>
+
+<body>
+    <div class="OuterDivStyle" id="Login-container">
+        <h2>Login</h2>
+        <form id="login-form">
+            <input type="text" id="Login-user" name="input1" placeholder="Enter your Username" required>
+            <input type="password" id="Login-pass" name="input2" placeholder="Password" required>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div class="OuterDivStyle" id="Post-container">
+        <h2>Post Something</h2>
+        <form id="post-form">
+            <input type="text" id="Postuser" name="text1" placeholder="Username" required>
+
+            <input type="text" id="postCaption" name="text2" placeholder="What's on your mind" required>
+
+            <input type="file" id="post-file" name="file" required>
+
+            <input type="submit" value="Post">
+        </form>
+
+        <div id="post-feed">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+     <!-- ********** check full code of  project on "js-project" repository  ********  -->
+
+</body>
+
+</html>
